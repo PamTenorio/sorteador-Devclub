@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: black;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    width: 583px;
+    height: 374px;
+    margin-top: 156px;
+    margin-left: 728px;
+}
+
+p {
+    width: 299px;
+    height: 20px;
+    margin-top: 180px;
+    margin-left: 850px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.input1, .input2 {
+    width: 342px;
+    height: 74px;
+    margin-top: 50px;
+    margin-left: 650px;
+    padding: 13px, 233px, 30px, 16px;
+    border-radius: 14px;
+    border: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    align-items: center;
+    color: #111010;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#input2{
+    margin-left: 20px;
+}
+
+placeholder {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 342px;
+    padding: 13px 233px 30px 16px;
+    align-items: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+button {
+    width: 342px;
+    height: 72px;
+    margin-top: 50px;
+    margin-left: 849px;
+    border-radius: 10px;
+    background-color: rgb(94, 231, 49);
+    color: #ffffff;
+    font-family: roboto;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 18px 40px 0px rgba(168, 221, 45, 0.488);
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+}
+button:active {
+    opacity: 0.8;
+}
